@@ -119,7 +119,7 @@ li[id] {
 }
 
 /* apply to QWERTIES */
-#Q, #W, #E, #R, #T, #I, #U, #Y {
+#Q, #W, #E, #R, #T, #I, #U, #Y, #right-shift {
   /* background-color: gold; */
   opacity: 1;
   /* border-color: gold; */
