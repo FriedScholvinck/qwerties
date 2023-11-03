@@ -54,11 +54,19 @@ li {
   width: 8em;
 }
 
+#events {
+  width: 8em;
+}
+
 #enter {
   width: 6em;
 }
 
 #right-shift {
+  width: 8em;
+}
+
+#bookings {
   width: 8em;
 }
 
@@ -119,7 +127,7 @@ li[id] {
 }
 
 /* apply to QWERTIES */
-#Q, #W, #E, #R, #T, #I, #U, #Y, #right-shift {
+#Q, #W, #E, #R, #T, #I, #U, #Y, #bookings, #enter, #events {
   /* background-color: gold; */
   opacity: 1;
   /* border-color: gold; */
@@ -210,4 +218,47 @@ li[id] {
     -webkit-transform: translate(0);
             transform: translate(0);
   }
+}
+
+@keyframes glow {
+  0%, 100% {
+    color: #000; /* Start and end with the original color */
+    text-shadow: none;
+  }
+  20% {
+    color: #ffcc00; /* Apply the glow effect at 20% */
+    text-shadow: 0 0 10px #ffcc00;
+  }
+}
+
+.row-1 li[data-glow="1"] {
+  animation: glow 1s infinite alternate 0.1s;
+}
+
+.row-1 li[data-glow="2"] {
+  animation: glow 1s infinite alternate 0.2s;
+}
+
+.row-1 li[data-glow="3"] {
+  animation: glow 1s infinite alternate 0.3s;
+}
+
+.row-1 li[data-glow="4"] {
+  animation: glow 1s infinite alternate 0.4s;
+}
+
+.row-1 li[data-glow="5"] {
+  animation: glow 1s infinite alternate 0.5s;
+}
+
+.row-1 li[data-glow="6"] {
+  animation: glow 1s infinite alternate 0.6s;
+}
+
+.row-1 li[data-glow="7"] {
+  animation: glow 1s infinite alternate 0.7s;
+}
+
+.row-1 li[data-glow="8"] {
+  animation: glow 1s infinite alternate 0.8s;
 }

@@ -1,2 +1,2 @@
-# QWERTIES website
+# Qwerties website
 
